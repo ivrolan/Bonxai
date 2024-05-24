@@ -24,7 +24,7 @@
 #include "tf2_ros/message_filter.h"
 #include "tf2_ros/transform_listener.h"
 #include "message_filters/subscriber.h"
-#include "tf2_eigen/tf2_eigen.hpp"
+#include "tf2_eigen/tf2_eigen.h"
 
 #include <algorithm>
 #include <limits>
