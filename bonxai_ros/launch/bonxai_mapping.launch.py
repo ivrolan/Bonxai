@@ -23,7 +23,10 @@ def generate_launch_description():
         name='bonxai_server_node',
         emulate_tty=True,
         parameters=[bonxai_params],
-        output="screen"
+        output="screen",
+        # remappings=[
+        #         ('/cloud_in', '/your/cloud'),
+        #     ]
     )
 
     # RVIZ Configuration
